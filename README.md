@@ -22,7 +22,7 @@ This is a http trigger function and the entry point for the application
         }
 ```
 
-### Orchestrator function to call the activity function
+### Orchestrator function to call the activity functions
 In the orchestrator function, it waits for an external event (ApprovalEvent) and based on that perform the activity functions
 ```
         [FunctionName("request_approval")]
